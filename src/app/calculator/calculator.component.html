@@ -1,0 +1,22 @@
+<p>calculator works!</p>
+<label>
+  Number 1:
+  <input type="number" [(ngModel)]="num1" >
+</label>
+<label>
+  Number 2:
+  <input type="number" [(ngModel)]="num2" >
+</label>
+<button type="button" (click)="add()">add</button>
+<button type="button" (click)="minus()">minus</button>
+<button type="button" (click)="divide()">/</button>
+<button type="button" (click)="multi()">*</button>
+<br>
+<label>
+  Result
+  <h4 type="text" >{{result}}</h4>
+</label>
+
+
+
+
